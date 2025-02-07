@@ -6,6 +6,13 @@
 -Referenced popular 3D modeling websites (e.g., Sketchfab, Autodesk Viewer, Thingiverse) for design inspiration and to understand industry standards. 
 -Tested the Autodesk API using Postman, focusing on learning its key functionalities for future integration into our platform.
 
+![ScreenShot Image](/Images/3Dmodelview.png)
+![ScreenShot Image](/Images/login.png)
+![ScreenShot Image](/Images/signin.png)
+![ScreenShot Image](/Images/main.png)
+![ScreenShot Image](/Images/projects.png)
+![ScreenShot Image](/Images/colorpalette.png)
+
 ## What I intend to do before the next session:
 -Focus on learning the Autodesk API in more depth to integrate its features effectively into the platform.
 -Discuss with my team members about the backend structure, particularly how the project page will display all projects related to the user. 
