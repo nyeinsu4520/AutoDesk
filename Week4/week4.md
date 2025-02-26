@@ -15,6 +15,15 @@ After completing the entire process with Postman, I explored an alternative appr
 ![ScreenShot Image](./Images/myapp1.png)
 ![ScreenShot Image](./Images/myapp2.png)
 ![ScreenShot Image](./Images/myapp3.png)
+![ScreenShot Image](./Images/postmangetaccesstoken.png)
+![ScreenShot Image](./Images/postmancreatebucket1.png)
+![ScreenShot Image](./Images/postmanobtainurl.png)
+![ScreenShot Image](./Images/postmanuploadfile.png)
+![ScreenShot Image](./Images/postmanfinalizeupload.png)
+![ScreenShot Image](./Images/postmancreatetranslation.png)
+![ScreenShot Image](./Images/postmantranslation_success.png)
+![ScreenShot Image](./Images/postmandownload.png)
+
 
 ## What I intend to do before the next session:
 
