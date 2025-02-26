@@ -8,13 +8,13 @@ After setting up authentication, I created a storage bucket and obtained a signe
 
 After completing the entire process with Postman, I explored an alternative approach by testing PHP code to retrieve the access token. I used the Guzzle library to make API requests in PHP, which helped streamline HTTP requests and handle responses efficiently. Additionally, I tested 3-legged authentication by modifying the callback URL in Autodesk and attempting to establish a connection. However, we ultimately decided to proceed with 2-legged authentication, as it allowed us to interact with the API without requiring a redirect link. Through this process, I gained a deeper understanding of API interactions, authentication mechanisms, and file processing within the Autodesk platform.
 
-![ScreenShot Image](/Images/autodesk1.png)
-![ScreenShot Image](/Images/autodesk2.png)
-![ScreenShot Image](/Images/autodesk3.png)
-![ScreenShot Image](/Images/githubautodesk.png)
-![ScreenShot Image](/Images/myapp1.png)
-![ScreenShot Image](/Images/myapp2.png)
-![ScreenShot Image](/Images/myapp3.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/autodesk1.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/autodesk2.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/autodesk3.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/githubautodesk.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/myapp1.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/myapp2.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/myapp3.png)
 
 ## What I intend to do before the next session:
 
@@ -41,20 +41,20 @@ https://developer.api.autodesk.com/authentication/v2/token resulted in a 400 Bad
 This occurred when attempting to authenticate, along with other errors like "no URL found." To resolve this, I reviewed the API documentation, double-checked the callback URL configuration in Autodesk, and ensured it matched the one registered in the developer console. However, after troubleshooting, we decided to proceed with 2-legged authentication, which allowed us to interact with the API without requiring a redirect link.
 
 Step1:
-![ScreenShot Image](/Images/login.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/login.png)
 Step2:
-![ScreenShot Image](/Images/loginintogettoken.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/loginintogettoken.png)
 Step3:
-![ScreenShot Image](/Images/accesstoken.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/accesstoken.png)
 
 Errors:
-![ScreenShot Image](/Images/error1.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/error1.png)
 I encountered an authentication error because I attempted to access the index page without first connecting to the login page in Autodesk. This caused the authentication process to fail, preventing access to the API.
 
 
-![ScreenShot Image](/Images/error2.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/error2.png)
 I encountered an error because the callback URL registered in Autodesk did not match my local URL. This mismatch caused authentication to fail, preventing the API from processing the request correctly.
 
 My PHP code:
-![ScreenShot Image](/Images/phpcode.png)
-![ScreenShot Image](/Images/phpcode1.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/phpcode.png)
+![ScreenShot Image](https://raw.githubusercontent.com/nyeinsu4520/AutoDesk/week4/Images/phpcode1.png)
