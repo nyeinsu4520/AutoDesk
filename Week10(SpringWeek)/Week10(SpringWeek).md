@@ -139,7 +139,7 @@ This happened because the sendmail.ini configuration wasn’t properly enforcing
 
 Resolution: To resolve the issue, I switched from using the basic mail() function to the PHPMailer library, which supports secure SMTP connections out of the box. I also created a dedicated Gmail account (autodeskteam) and used an App Password to enable secure authentication. After integrating PHPMailer and properly setting up the SMTP details (including TLS), the email invitations were sent successfully without errors.
 
-### 8.Issues Feature Implementation
+### 7.Issues Feature Implementation
 Issue: While implementing the Issues feature, which allows users to raise issues related to specific file versions by submitting files and descriptions, I encountered a JSON parsing error on the frontend. When fetching file data from get-projectfile.php, the browser console showed the following error:
 
 Uncaught (in promise) SyntaxError: Unexpected token '< br >', "
